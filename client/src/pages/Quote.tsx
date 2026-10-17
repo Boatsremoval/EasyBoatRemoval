@@ -261,13 +261,12 @@ export default function Quote() {
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-3xl">Get a Boat Removal Quote</CardTitle>
+              <CardTitle className="text-3xl">Boat Removal Quote Request</CardTitle>
               <CardDescription className="text-base mt-4">
-                <strong>Whether we pay you for a boat or you pay us to remove one, the price takes many factors into account, and all of them are included:</strong>
+                <strong>Whether we pay you for a boat or you pay us to remove one, the price takes many factors into account,</strong>
               </CardDescription>
               <CardDescription className="text-sm mt-2">
-                Including: age of the boat, its condition, how hard it is to get out, how hard it is to haul, demolition costs and waste fees.
-                When it applies: resale costs (title / notary, detailing, storage).
+                Including: age of the boat, its condition, how hard it is to get out, how hard it is to haul, demolition costs and waste fees
               </CardDescription>
             </CardHeader>
             <CardContent>
