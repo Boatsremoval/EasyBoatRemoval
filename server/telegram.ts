@@ -91,8 +91,11 @@ export async function sendQuoteToTelegram(q: QuoteRequest) {
     "New boat removal quote request\n\n" +
     line("Name", `${q.firstName} ${q.lastName}`.trim()) +
     line("Phone", q.phone) +
-    line("Boat size", q.boatSize) +
+    line("Email", q.email) +
+    line("Boat length", q.boatSize) +
+    line("Boat is", q.boatLocation) +
     line("Engine type", q.engineType) +
+    line("Engines", q.engineCount) +
     line("Address", [q.addressLine1, q.addressLine2].filter(Boolean).join(", ")) +
     line("City", q.city) +
     line("State", q.state) +

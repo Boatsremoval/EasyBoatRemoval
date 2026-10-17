@@ -2,6 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { quoteSchema, contactSchema } from "@shared/schema";
+import { ZodError } from "zod";
 import { sendQuoteToTelegram, sendContactToTelegram } from "./telegram";
 
 export async function registerRoutes(app: Express): Promise<Server> {
@@ -22,7 +23,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       console.error('Quote submission error:', error);
       res.status(400).json({ 
         success: false, 
-        message: error instanceof Error ? error.message : "Failed to submit quote request" 
+        message: error instanceof ZodError ? error.issues[0]?.message : error instanceof Error ? error.message : "Failed to submit quote request" 
       });
     }
   });
@@ -44,7 +45,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       console.error('Contact submission error:', error);
       res.status(400).json({ 
         success: false, 
-        message: error instanceof Error ? error.message : "Failed to submit contact request" 
+        message: error instanceof ZodError ? error.issues[0]?.message : error instanceof Error ? error.message : "Failed to submit contact request" 
       });
     }
   });
