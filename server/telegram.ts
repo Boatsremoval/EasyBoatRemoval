@@ -24,19 +24,14 @@ async function tg(method: string, body: FormData | Record<string, unknown>) {
 }
 
 function toBlob(img: Image) {
-  // content is base64, optionally with a data: prefix
+  // content is base64, optionally with a data:<type>;base64, prefix
+  const m = img.content.match(/^data:([^;,]+)[;,]/);
+  const type = m ? m[1] : "image/jpeg";
   const b64 = img.content.includes(",") ? img.content.split(",")[1] : img.content;
-  return new Blob([Buffer.from(b64, "base64")], { type: "image/jpeg" });
+  return new Blob([Buffer.from(b64, "base64")], { type });
 }
 
-async function send(text: string, images: Image[] = []) {
-  if (!token() || !chatId()) {
-    console.log("[quote] Telegram is not set up yet. Request received:\n" + text + (images.length ? `\n(${images.length} photo(s) attached)` : ""));
-    return;
-  }
-  await tg("sendMessage", { chat_id: chatId(), text, disable_web_page_preview: true });
-
-  const photos = images.slice(0, 10);
+async function sendPhotos(photos: Image[]) {
   if (photos.length === 1) {
     const form = new FormData();
     form.append("chat_id", String(chatId()));
@@ -48,6 +43,44 @@ async function send(text: string, images: Image[] = []) {
     form.append("media", JSON.stringify(photos.map((_, i) => ({ type: "photo", media: `attach://p${i}` }))));
     photos.forEach((p, i) => form.append(`p${i}`, toBlob(p), p.filename || `photo${i + 1}.jpg`));
     await tg("sendMediaGroup", form);
+  }
+}
+
+async function sendAsFiles(photos: Image[]) {
+  for (const [i, p] of photos.entries()) {
+    try {
+      const form = new FormData();
+      form.append("chat_id", String(chatId()));
+      form.append("document", toBlob(p), p.filename || `photo${i + 1}.jpg`);
+      await tg("sendDocument", form);
+    } catch (err) {
+      console.error(`[quote] Could not send photo ${i + 1}:`, err);
+    }
+  }
+}
+
+async function send(text: string, images: Image[] = []) {
+  if (!token() || !chatId()) {
+    console.log("[quote] Telegram is not set up yet. Request received:\n" + text + (images.length ? `\n(${images.length} photo(s) attached)` : ""));
+    return;
+  }
+
+  // The text is the important part: if it can't be delivered, log the whole request and report the error.
+  try {
+    await tg("sendMessage", { chat_id: chatId(), text, disable_web_page_preview: true });
+  } catch (err) {
+    console.error("[quote] Telegram error, request saved here instead:\n" + text, err);
+    throw new Error("Could not send your request right now. Please call us instead.");
+  }
+
+  // Photos are extra: if Telegram rejects them as photos, try them as files, and never fail the request.
+  const photos = images.slice(0, 10);
+  if (!photos.length) return;
+  try {
+    await sendPhotos(photos);
+  } catch (err) {
+    console.error("[quote] Sending as photos failed, trying as files:", err);
+    await sendAsFiles(photos);
   }
 }
 
