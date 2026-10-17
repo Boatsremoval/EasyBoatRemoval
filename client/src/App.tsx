@@ -20,6 +20,201 @@ import NotFound from "@/pages/not-found";
 import PompanoBeachFL from "@/pages/SEO/PompanoBeach"
 
 import Tampa from "@/pages/SEO/westcoast/Tampa"
+import City_Atlantis from "@/pages/SEO/Atlantis";
+import City_Aventura from "@/pages/SEO/Aventura";
+import City_BelleGlade from "@/pages/SEO/BelleGlade";
+import City_BocaRaton from "@/pages/SEO/BocaRaton";
+import City_BoyntonBeach from "@/pages/SEO/BoyntonBeach";
+import City_BrinyBreezes from "@/pages/SEO/BrinyBreezes";
+import City_BroadviewPark from "@/pages/SEO/BroadviewPark";
+import City_CloudLake from "@/pages/SEO/CloudLake";
+import City_CoconutCreek from "@/pages/SEO/CoconutCreek";
+import City_CooperCity from "@/pages/SEO/CooperCity";
+import City_CoralGables from "@/pages/SEO/CoralGables";
+import City_CoralSprings from "@/pages/SEO/CoralSprings";
+import City_CutlerBay from "@/pages/SEO/CutlerBay";
+import City_DaniaBeach from "@/pages/SEO/DaniaBeach";
+import City_Davie from "@/pages/SEO/Davie";
+import City_DeerfieldBeach from "@/pages/SEO/DeerfieldBeach";
+import City_DelrayBeach from "@/pages/SEO/DelrayBeach";
+import City_Doral from "@/pages/SEO/Doral";
+import City_FortLauderdale from "@/pages/SEO/FortLauderdale";
+import City_GlenRidge from "@/pages/SEO/GlenRidge";
+import City_Golf from "@/pages/SEO/Golf";
+import City_Greenacres from "@/pages/SEO/Greenacres";
+import City_GulfStream from "@/pages/SEO/GulfStream";
+import City_HallandaleBeach from "@/pages/SEO/HallandaleBeach";
+import City_Haverhill from "@/pages/SEO/Haverhill";
+import City_Hialeah from "@/pages/SEO/Hialeah";
+import City_HighlandBeach from "@/pages/SEO/HighlandBeach";
+import City_HillsboroBeach from "@/pages/SEO/HillsboroBeach";
+import City_Hollywood from "@/pages/SEO/Hollywood";
+import City_Homestead from "@/pages/SEO/Homestead";
+import City_Hypoluxo from "@/pages/SEO/Hypoluxo";
+import City_JunoBeach from "@/pages/SEO/JunoBeach";
+import City_Jupiter from "@/pages/SEO/Jupiter";
+import City_JupiterInletColony from "@/pages/SEO/JupiterInletColony";
+import City_Kendall from "@/pages/SEO/Kendall";
+import City_LakeClarkeShores from "@/pages/SEO/LakeClarkeShores";
+import City_LakePark from "@/pages/SEO/LakePark";
+import City_LakeWorthBeach from "@/pages/SEO/LakeWorthBeach";
+import City_Lantana from "@/pages/SEO/Lantana";
+import City_LauderdalebytheSea from "@/pages/SEO/LauderdalebytheSea";
+import City_LauderdaleLakes from "@/pages/SEO/LauderdaleLakes";
+import City_Lauderhill from "@/pages/SEO/Lauderhill";
+import City_LazyLake from "@/pages/SEO/LazyLake";
+import City_LighthousePoint from "@/pages/SEO/LighthousePoint";
+import City_LoxahatcheeGroves from "@/pages/SEO/LoxahatcheeGroves";
+import City_Manalapan from "@/pages/SEO/Manalapan";
+import City_MangoniaPark from "@/pages/SEO/MangoniaPark";
+import City_Margate from "@/pages/SEO/Margate";
+import City_Miami from "@/pages/SEO/Miami";
+import City_MiamiBeach from "@/pages/SEO/MiamiBeach";
+import City_MiamiGardens from "@/pages/SEO/MiamiGardens";
+import City_MiamiLakes from "@/pages/SEO/MiamiLakes";
+import City_Miramar from "@/pages/SEO/Miramar";
+import City_NorthLauderdale from "@/pages/SEO/NorthLauderdale";
+import City_NorthMiami from "@/pages/SEO/NorthMiami";
+import City_NorthPalmBeach from "@/pages/SEO/NorthPalmBeach";
+import City_OaklandPark from "@/pages/SEO/OaklandPark";
+import City_OceanRidge from "@/pages/SEO/OceanRidge";
+import City_Pahokee from "@/pages/SEO/Pahokee";
+import City_PalmBeach from "@/pages/SEO/PalmBeach";
+import City_PalmBeachGardens from "@/pages/SEO/PalmBeachGardens";
+import City_PalmBeachShores from "@/pages/SEO/PalmBeachShores";
+import City_PalmSprings from "@/pages/SEO/PalmSprings";
+import City_PalmettoBay from "@/pages/SEO/PalmettoBay";
+import City_Parkland from "@/pages/SEO/Parkland";
+import City_PembrokePark from "@/pages/SEO/PembrokePark";
+import City_PembrokePines from "@/pages/SEO/PembrokePines";
+import City_Pinecrest from "@/pages/SEO/Pinecrest";
+import City_Plantation from "@/pages/SEO/Plantation";
+import City_RivieraBeach from "@/pages/SEO/RivieraBeach";
+import City_RoyalPalmBeach from "@/pages/SEO/RoyalPalmBeach";
+import City_SeaRanchLakes from "@/pages/SEO/SeaRanchLakes";
+import City_SouthBay from "@/pages/SEO/SouthBay";
+import City_SouthPalmBeach from "@/pages/SEO/SouthPalmBeach";
+import City_SouthwestRanches from "@/pages/SEO/SouthwestRanches";
+import City_SunnyIslesBeach from "@/pages/SEO/SunnyIslesBeach";
+import City_Sunrise from "@/pages/SEO/Sunrise";
+import City_Tamarac from "@/pages/SEO/Tamarac";
+import City_Tequesta from "@/pages/SEO/Tequesta";
+import City_Wellington from "@/pages/SEO/Wellington";
+import City_WestPalmBeach from "@/pages/SEO/WestPalmBeach";
+import City_Westlake from "@/pages/SEO/Westlake";
+import City_Weston from "@/pages/SEO/Weston";
+import City_WiltonManors from "@/pages/SEO/WiltonManors";
+import City_Acline from "@/pages/SEO/westcoast/Acline";
+import City_AnnaMaria from "@/pages/SEO/westcoast/AnnaMaria";
+import City_ApolloBeach from "@/pages/SEO/westcoast/ApolloBeach";
+import City_BayonetPoint from "@/pages/SEO/westcoast/BayonetPoint";
+import City_BayshoreGardens from "@/pages/SEO/westcoast/BayshoreGardens";
+import City_Belleair from "@/pages/SEO/westcoast/Belleair";
+import City_BerkshireLakes from "@/pages/SEO/westcoast/BerkshireLakes";
+import City_Bloomingdale from "@/pages/SEO/westcoast/Bloomingdale";
+import City_BocaGrande from "@/pages/SEO/westcoast/BocaGrande";
+import City_Bokeelia from "@/pages/SEO/westcoast/Bokeelia";
+import City_BonitaSprings from "@/pages/SEO/westcoast/BonitaSprings";
+import City_Bradenton from "@/pages/SEO/westcoast/Bradenton";
+import City_BradentonBeach from "@/pages/SEO/westcoast/BradentonBeach";
+import City_Brandon from "@/pages/SEO/westcoast/Brandon";
+import City_BurntStoreMarina from "@/pages/SEO/westcoast/BurntStoreMarina";
+import City_CapeCoral from "@/pages/SEO/westcoast/CapeCoral";
+import City_CapeHaze from "@/pages/SEO/westcoast/CapeHaze";
+import City_CayoCosta from "@/pages/SEO/westcoast/CayoCosta";
+import City_CharlotteHarbor from "@/pages/SEO/westcoast/CharlotteHarbor";
+import City_Chokoloskee from "@/pages/SEO/westcoast/Chokoloskee";
+import City_CitrusPark from "@/pages/SEO/westcoast/CitrusPark";
+import City_Clearwater from "@/pages/SEO/westcoast/Clearwater";
+import City_CypressLake from "@/pages/SEO/westcoast/CypressLake";
+import City_Dover from "@/pages/SEO/westcoast/Dover";
+import City_Dunedin from "@/pages/SEO/westcoast/Dunedin";
+import City_EastLake from "@/pages/SEO/westcoast/EastLake";
+import City_ElJobean from "@/pages/SEO/westcoast/ElJobean";
+import City_Ellenton from "@/pages/SEO/westcoast/Ellenton";
+import City_Englewood from "@/pages/SEO/westcoast/Englewood";
+import City_Estero from "@/pages/SEO/westcoast/Estero";
+import City_EvergladesCity from "@/pages/SEO/westcoast/EvergladesCity";
+import City_FortMyers from "@/pages/SEO/westcoast/FortMyers";
+import City_FortMyersBeach from "@/pages/SEO/westcoast/FortMyersBeach";
+import City_Fruitville from "@/pages/SEO/westcoast/Fruitville";
+import City_Gibsonton from "@/pages/SEO/westcoast/Gibsonton";
+import City_GoldenGate from "@/pages/SEO/westcoast/GoldenGate";
+import City_Goodland from "@/pages/SEO/westcoast/Goodland";
+import City_GreaterCarrollwood from "@/pages/SEO/westcoast/GreaterCarrollwood";
+import City_HarborHeights from "@/pages/SEO/westcoast/HarborHeights";
+import City_HeritageBay from "@/pages/SEO/westcoast/HeritageBay";
+import City_Holiday from "@/pages/SEO/westcoast/Holiday";
+import City_HolmesBeach from "@/pages/SEO/westcoast/HolmesBeach";
+import City_Hudson from "@/pages/SEO/westcoast/Hudson";
+import City_IndianRocksBeach from "@/pages/SEO/westcoast/IndianRocksBeach";
+import City_IndianShores from "@/pages/SEO/westcoast/IndianShores";
+import City_Iona from "@/pages/SEO/westcoast/Iona";
+import City_IslandWalk from "@/pages/SEO/westcoast/IslandWalk";
+import City_LakeSuzy from "@/pages/SEO/westcoast/LakeSuzy";
+import City_LakewoodRanch from "@/pages/SEO/westcoast/LakewoodRanch";
+import City_LandOLakes from "@/pages/SEO/westcoast/LandOLakes";
+import City_Largo from "@/pages/SEO/westcoast/Largo";
+import City_Lely from "@/pages/SEO/westcoast/Lely";
+import City_LelyResort from "@/pages/SEO/westcoast/LelyResort";
+import City_LongboatKey from "@/pages/SEO/westcoast/LongboatKey";
+import City_Lutz from "@/pages/SEO/westcoast/Lutz";
+import City_MadeiraBeach from "@/pages/SEO/westcoast/MadeiraBeach";
+import City_ManasotaKey from "@/pages/SEO/westcoast/ManasotaKey";
+import City_MarcoIsland from "@/pages/SEO/westcoast/MarcoIsland";
+import City_Matlacha from "@/pages/SEO/westcoast/Matlacha";
+import City_Naples from "@/pages/SEO/westcoast/Naples";
+import City_NaplesPark from "@/pages/SEO/westcoast/NaplesPark";
+import City_NewPortRichey from "@/pages/SEO/westcoast/NewPortRichey";
+import City_Nokomis from "@/pages/SEO/westcoast/Nokomis";
+import City_NorthFortMyers from "@/pages/SEO/westcoast/NorthFortMyers";
+import City_NorthPort from "@/pages/SEO/westcoast/NorthPort";
+import City_Odessa from "@/pages/SEO/westcoast/Odessa";
+import City_Oldsmar from "@/pages/SEO/westcoast/Oldsmar";
+import City_Osprey from "@/pages/SEO/westcoast/Osprey";
+import City_PalmHarbor from "@/pages/SEO/westcoast/PalmHarbor";
+import City_PalmRiverClairMel from "@/pages/SEO/westcoast/PalmRiverClairMel";
+import City_PalmerRanch from "@/pages/SEO/westcoast/PalmerRanch";
+import City_Palmetto from "@/pages/SEO/westcoast/Palmetto";
+import City_Parrish from "@/pages/SEO/westcoast/Parrish";
+import City_PelicanBay from "@/pages/SEO/westcoast/PelicanBay";
+import City_PelicanMarsh from "@/pages/SEO/westcoast/PelicanMarsh";
+import City_PineIsland from "@/pages/SEO/westcoast/PineIsland";
+import City_Pineland from "@/pages/SEO/westcoast/Pineland";
+import City_PinellasPark from "@/pages/SEO/westcoast/PinellasPark";
+import City_Placida from "@/pages/SEO/westcoast/Placida";
+import City_PlantCity from "@/pages/SEO/westcoast/PlantCity";
+import City_PortCharlotte from "@/pages/SEO/westcoast/PortCharlotte";
+import City_PortRichey from "@/pages/SEO/westcoast/PortRichey";
+import City_PuntaGorda from "@/pages/SEO/westcoast/PuntaGorda";
+import City_Riverview from "@/pages/SEO/westcoast/Riverview";
+import City_RotondaWest from "@/pages/SEO/westcoast/RotondaWest";
+import City_Ruskin from "@/pages/SEO/westcoast/Ruskin";
+import City_SafetyHarbor from "@/pages/SEO/westcoast/SafetyHarbor";
+import City_SanCarlosPark from "@/pages/SEO/westcoast/SanCarlosPark";
+import City_Sarasota from "@/pages/SEO/westcoast/Sarasota";
+import City_Seffner from "@/pages/SEO/westcoast/Seffner";
+import City_Seminole from "@/pages/SEO/westcoast/Seminole";
+import City_SiestaKey from "@/pages/SEO/westcoast/SiestaKey";
+import City_SouthVenice from "@/pages/SEO/westcoast/SouthVenice";
+import City_StJamesCity from "@/pages/SEO/westcoast/StJamesCity";
+import City_StPeteBeach from "@/pages/SEO/westcoast/StPeteBeach";
+import City_StPetersburg from "@/pages/SEO/westcoast/StPetersburg";
+import City_SunCityCenter from "@/pages/SEO/westcoast/SunCityCenter";
+import City_Tallevast from "@/pages/SEO/westcoast/Tallevast";
+import City_TarponSprings from "@/pages/SEO/westcoast/TarponSprings";
+import City_TempleTerrace from "@/pages/SEO/westcoast/TempleTerrace";
+import City_Thonotosassa from "@/pages/SEO/westcoast/Thonotosassa";
+import City_Tice from "@/pages/SEO/westcoast/Tice";
+import City_TownNCountry from "@/pages/SEO/westcoast/TownNCountry";
+import City_TreasureIsland from "@/pages/SEO/westcoast/TreasureIsland";
+import City_University from "@/pages/SEO/westcoast/University";
+import City_Venice from "@/pages/SEO/westcoast/Venice";
+import City_VeniceGardens from "@/pages/SEO/westcoast/VeniceGardens";
+import City_Vineyards from "@/pages/SEO/westcoast/Vineyards";
+import City_WarmMineralSprings from "@/pages/SEO/westcoast/WarmMineralSprings";
+import City_Westchase from "@/pages/SEO/westcoast/Westchase";
+import City_Wimauma from "@/pages/SEO/westcoast/Wimauma";
 
 
 function Router() {
@@ -37,6 +232,201 @@ function Router() {
       <Route path="/tampa-boat-removal" component={TampaBoatRemoval} />
       <Route path="/boat-removal-fl-pompano-beach" component={PompanoBeachFL} />
       <Route path="/boat-removal-fl-tampa" component={Tampa} />
+      <Route path="/boat-removal-fl-atlantis" component={City_Atlantis} />
+      <Route path="/boat-removal-fl-aventura" component={City_Aventura} />
+      <Route path="/boat-removal-fl-belle-glade" component={City_BelleGlade} />
+      <Route path="/boat-removal-fl-boca-raton" component={City_BocaRaton} />
+      <Route path="/boat-removal-fl-boynton-beach" component={City_BoyntonBeach} />
+      <Route path="/boat-removal-fl-briny-breezes" component={City_BrinyBreezes} />
+      <Route path="/boat-removal-fl-broadview-park" component={City_BroadviewPark} />
+      <Route path="/boat-removal-fl-cloud-lake" component={City_CloudLake} />
+      <Route path="/boat-removal-fl-coconut-creek" component={City_CoconutCreek} />
+      <Route path="/boat-removal-fl-cooper-city" component={City_CooperCity} />
+      <Route path="/boat-removal-fl-coral-gables" component={City_CoralGables} />
+      <Route path="/boat-removal-fl-coral-springs" component={City_CoralSprings} />
+      <Route path="/boat-removal-fl-cutler-bay" component={City_CutlerBay} />
+      <Route path="/boat-removal-fl-dania-beach" component={City_DaniaBeach} />
+      <Route path="/boat-removal-fl-davie" component={City_Davie} />
+      <Route path="/boat-removal-fl-deerfield-beach" component={City_DeerfieldBeach} />
+      <Route path="/boat-removal-fl-delray-beach" component={City_DelrayBeach} />
+      <Route path="/boat-removal-fl-doral" component={City_Doral} />
+      <Route path="/boat-removal-fl-fort-lauderdale" component={City_FortLauderdale} />
+      <Route path="/boat-removal-fl-glen-ridge" component={City_GlenRidge} />
+      <Route path="/boat-removal-fl-golf" component={City_Golf} />
+      <Route path="/boat-removal-fl-greenacres" component={City_Greenacres} />
+      <Route path="/boat-removal-fl-gulf-stream" component={City_GulfStream} />
+      <Route path="/boat-removal-fl-hallandale-beach" component={City_HallandaleBeach} />
+      <Route path="/boat-removal-fl-haverhill" component={City_Haverhill} />
+      <Route path="/boat-removal-fl-hialeah" component={City_Hialeah} />
+      <Route path="/boat-removal-fl-highland-beach" component={City_HighlandBeach} />
+      <Route path="/boat-removal-fl-hillsboro-beach" component={City_HillsboroBeach} />
+      <Route path="/boat-removal-fl-hollywood" component={City_Hollywood} />
+      <Route path="/boat-removal-fl-homestead" component={City_Homestead} />
+      <Route path="/boat-removal-fl-hypoluxo" component={City_Hypoluxo} />
+      <Route path="/boat-removal-fl-juno-beach" component={City_JunoBeach} />
+      <Route path="/boat-removal-fl-jupiter" component={City_Jupiter} />
+      <Route path="/boat-removal-fl-jupiter-inlet-colony" component={City_JupiterInletColony} />
+      <Route path="/boat-removal-fl-kendall" component={City_Kendall} />
+      <Route path="/boat-removal-fl-lake-clarke-shores" component={City_LakeClarkeShores} />
+      <Route path="/boat-removal-fl-lake-park" component={City_LakePark} />
+      <Route path="/boat-removal-fl-lake-worth-beach" component={City_LakeWorthBeach} />
+      <Route path="/boat-removal-fl-lantana" component={City_Lantana} />
+      <Route path="/boat-removal-fl-lauderdale-by-the-sea" component={City_LauderdalebytheSea} />
+      <Route path="/boat-removal-fl-lauderdale-lakes" component={City_LauderdaleLakes} />
+      <Route path="/boat-removal-fl-lauderhill" component={City_Lauderhill} />
+      <Route path="/boat-removal-fl-lazy-lake" component={City_LazyLake} />
+      <Route path="/boat-removal-fl-lighthouse-point" component={City_LighthousePoint} />
+      <Route path="/boat-removal-fl-loxahatchee-groves" component={City_LoxahatcheeGroves} />
+      <Route path="/boat-removal-fl-manalapan" component={City_Manalapan} />
+      <Route path="/boat-removal-fl-mangonia-park" component={City_MangoniaPark} />
+      <Route path="/boat-removal-fl-margate" component={City_Margate} />
+      <Route path="/boat-removal-fl-miami" component={City_Miami} />
+      <Route path="/boat-removal-fl-miami-beach" component={City_MiamiBeach} />
+      <Route path="/boat-removal-fl-miami-gardens" component={City_MiamiGardens} />
+      <Route path="/boat-removal-fl-miami-lakes" component={City_MiamiLakes} />
+      <Route path="/boat-removal-fl-miramar" component={City_Miramar} />
+      <Route path="/boat-removal-fl-north-lauderdale" component={City_NorthLauderdale} />
+      <Route path="/boat-removal-fl-north-miami" component={City_NorthMiami} />
+      <Route path="/boat-removal-fl-north-palm-beach" component={City_NorthPalmBeach} />
+      <Route path="/boat-removal-fl-oakland-park" component={City_OaklandPark} />
+      <Route path="/boat-removal-fl-ocean-ridge" component={City_OceanRidge} />
+      <Route path="/boat-removal-fl-pahokee" component={City_Pahokee} />
+      <Route path="/boat-removal-fl-palm-beach" component={City_PalmBeach} />
+      <Route path="/boat-removal-fl-palm-beach-gardens" component={City_PalmBeachGardens} />
+      <Route path="/boat-removal-fl-palm-beach-shores" component={City_PalmBeachShores} />
+      <Route path="/boat-removal-fl-palm-springs" component={City_PalmSprings} />
+      <Route path="/boat-removal-fl-palmetto-bay" component={City_PalmettoBay} />
+      <Route path="/boat-removal-fl-parkland" component={City_Parkland} />
+      <Route path="/boat-removal-fl-pembroke-park" component={City_PembrokePark} />
+      <Route path="/boat-removal-fl-pembroke-pines" component={City_PembrokePines} />
+      <Route path="/boat-removal-fl-pinecrest" component={City_Pinecrest} />
+      <Route path="/boat-removal-fl-plantation" component={City_Plantation} />
+      <Route path="/boat-removal-fl-riviera-beach" component={City_RivieraBeach} />
+      <Route path="/boat-removal-fl-royal-palm-beach" component={City_RoyalPalmBeach} />
+      <Route path="/boat-removal-fl-sea-ranch-lakes" component={City_SeaRanchLakes} />
+      <Route path="/boat-removal-fl-south-bay" component={City_SouthBay} />
+      <Route path="/boat-removal-fl-south-palm-beach" component={City_SouthPalmBeach} />
+      <Route path="/boat-removal-fl-southwest-ranches" component={City_SouthwestRanches} />
+      <Route path="/boat-removal-fl-sunny-isles-beach" component={City_SunnyIslesBeach} />
+      <Route path="/boat-removal-fl-sunrise" component={City_Sunrise} />
+      <Route path="/boat-removal-fl-tamarac" component={City_Tamarac} />
+      <Route path="/boat-removal-fl-tequesta" component={City_Tequesta} />
+      <Route path="/boat-removal-fl-wellington" component={City_Wellington} />
+      <Route path="/boat-removal-fl-west-palm-beach" component={City_WestPalmBeach} />
+      <Route path="/boat-removal-fl-westlake" component={City_Westlake} />
+      <Route path="/boat-removal-fl-weston" component={City_Weston} />
+      <Route path="/boat-removal-fl-wilton-manors" component={City_WiltonManors} />
+      <Route path="/boat-removal-fl-acline" component={City_Acline} />
+      <Route path="/boat-removal-fl-anna-maria" component={City_AnnaMaria} />
+      <Route path="/boat-removal-fl-apollo-beach" component={City_ApolloBeach} />
+      <Route path="/boat-removal-fl-bayonet-point" component={City_BayonetPoint} />
+      <Route path="/boat-removal-fl-bayshore-gardens" component={City_BayshoreGardens} />
+      <Route path="/boat-removal-fl-belleair" component={City_Belleair} />
+      <Route path="/boat-removal-fl-berkshire-lakes" component={City_BerkshireLakes} />
+      <Route path="/boat-removal-fl-bloomingdale" component={City_Bloomingdale} />
+      <Route path="/boat-removal-fl-boca-grande" component={City_BocaGrande} />
+      <Route path="/boat-removal-fl-bokeelia" component={City_Bokeelia} />
+      <Route path="/boat-removal-fl-bonita-springs" component={City_BonitaSprings} />
+      <Route path="/boat-removal-fl-bradenton" component={City_Bradenton} />
+      <Route path="/boat-removal-fl-bradenton-beach" component={City_BradentonBeach} />
+      <Route path="/boat-removal-fl-brandon" component={City_Brandon} />
+      <Route path="/boat-removal-fl-burnt-store-marina" component={City_BurntStoreMarina} />
+      <Route path="/boat-removal-fl-cape-coral" component={City_CapeCoral} />
+      <Route path="/boat-removal-fl-cape-haze" component={City_CapeHaze} />
+      <Route path="/boat-removal-fl-cayo-costa" component={City_CayoCosta} />
+      <Route path="/boat-removal-fl-charlotte-harbor" component={City_CharlotteHarbor} />
+      <Route path="/boat-removal-fl-chokoloskee" component={City_Chokoloskee} />
+      <Route path="/boat-removal-fl-citrus-park" component={City_CitrusPark} />
+      <Route path="/boat-removal-fl-clearwater" component={City_Clearwater} />
+      <Route path="/boat-removal-fl-cypress-lake" component={City_CypressLake} />
+      <Route path="/boat-removal-fl-dover" component={City_Dover} />
+      <Route path="/boat-removal-fl-dunedin" component={City_Dunedin} />
+      <Route path="/boat-removal-fl-east-lake" component={City_EastLake} />
+      <Route path="/boat-removal-fl-el-jobean" component={City_ElJobean} />
+      <Route path="/boat-removal-fl-ellenton" component={City_Ellenton} />
+      <Route path="/boat-removal-fl-englewood" component={City_Englewood} />
+      <Route path="/boat-removal-fl-estero" component={City_Estero} />
+      <Route path="/boat-removal-fl-everglades-city" component={City_EvergladesCity} />
+      <Route path="/boat-removal-fl-fort-myers" component={City_FortMyers} />
+      <Route path="/boat-removal-fl-fort-myers-beach" component={City_FortMyersBeach} />
+      <Route path="/boat-removal-fl-fruitville" component={City_Fruitville} />
+      <Route path="/boat-removal-fl-gibsonton" component={City_Gibsonton} />
+      <Route path="/boat-removal-fl-golden-gate" component={City_GoldenGate} />
+      <Route path="/boat-removal-fl-goodland" component={City_Goodland} />
+      <Route path="/boat-removal-fl-greater-carrollwood" component={City_GreaterCarrollwood} />
+      <Route path="/boat-removal-fl-harbor-heights" component={City_HarborHeights} />
+      <Route path="/boat-removal-fl-heritage-bay" component={City_HeritageBay} />
+      <Route path="/boat-removal-fl-holiday" component={City_Holiday} />
+      <Route path="/boat-removal-fl-holmes-beach" component={City_HolmesBeach} />
+      <Route path="/boat-removal-fl-hudson" component={City_Hudson} />
+      <Route path="/boat-removal-fl-indian-rocks-beach" component={City_IndianRocksBeach} />
+      <Route path="/boat-removal-fl-indian-shores" component={City_IndianShores} />
+      <Route path="/boat-removal-fl-iona" component={City_Iona} />
+      <Route path="/boat-removal-fl-island-walk" component={City_IslandWalk} />
+      <Route path="/boat-removal-fl-lake-suzy" component={City_LakeSuzy} />
+      <Route path="/boat-removal-fl-lakewood-ranch" component={City_LakewoodRanch} />
+      <Route path="/boat-removal-fl-land-o-lakes" component={City_LandOLakes} />
+      <Route path="/boat-removal-fl-largo" component={City_Largo} />
+      <Route path="/boat-removal-fl-lely" component={City_Lely} />
+      <Route path="/boat-removal-fl-lely-resort" component={City_LelyResort} />
+      <Route path="/boat-removal-fl-longboat-key" component={City_LongboatKey} />
+      <Route path="/boat-removal-fl-lutz" component={City_Lutz} />
+      <Route path="/boat-removal-fl-madeira-beach" component={City_MadeiraBeach} />
+      <Route path="/boat-removal-fl-manasota-key" component={City_ManasotaKey} />
+      <Route path="/boat-removal-fl-marco-island" component={City_MarcoIsland} />
+      <Route path="/boat-removal-fl-matlacha" component={City_Matlacha} />
+      <Route path="/boat-removal-fl-naples" component={City_Naples} />
+      <Route path="/boat-removal-fl-naples-park" component={City_NaplesPark} />
+      <Route path="/boat-removal-fl-new-port-richey" component={City_NewPortRichey} />
+      <Route path="/boat-removal-fl-nokomis" component={City_Nokomis} />
+      <Route path="/boat-removal-fl-north-fort-myers" component={City_NorthFortMyers} />
+      <Route path="/boat-removal-fl-north-port" component={City_NorthPort} />
+      <Route path="/boat-removal-fl-odessa" component={City_Odessa} />
+      <Route path="/boat-removal-fl-oldsmar" component={City_Oldsmar} />
+      <Route path="/boat-removal-fl-osprey" component={City_Osprey} />
+      <Route path="/boat-removal-fl-palm-harbor" component={City_PalmHarbor} />
+      <Route path="/boat-removal-fl-palm-river-clair-mel" component={City_PalmRiverClairMel} />
+      <Route path="/boat-removal-fl-palmer-ranch" component={City_PalmerRanch} />
+      <Route path="/boat-removal-fl-palmetto" component={City_Palmetto} />
+      <Route path="/boat-removal-fl-parrish" component={City_Parrish} />
+      <Route path="/boat-removal-fl-pelican-bay" component={City_PelicanBay} />
+      <Route path="/boat-removal-fl-pelican-marsh" component={City_PelicanMarsh} />
+      <Route path="/boat-removal-fl-pine-island" component={City_PineIsland} />
+      <Route path="/boat-removal-fl-pineland" component={City_Pineland} />
+      <Route path="/boat-removal-fl-pinellas-park" component={City_PinellasPark} />
+      <Route path="/boat-removal-fl-placida" component={City_Placida} />
+      <Route path="/boat-removal-fl-plant-city" component={City_PlantCity} />
+      <Route path="/boat-removal-fl-port-charlotte" component={City_PortCharlotte} />
+      <Route path="/boat-removal-fl-port-richey" component={City_PortRichey} />
+      <Route path="/boat-removal-fl-punta-gorda" component={City_PuntaGorda} />
+      <Route path="/boat-removal-fl-riverview" component={City_Riverview} />
+      <Route path="/boat-removal-fl-rotonda-west" component={City_RotondaWest} />
+      <Route path="/boat-removal-fl-ruskin" component={City_Ruskin} />
+      <Route path="/boat-removal-fl-safety-harbor" component={City_SafetyHarbor} />
+      <Route path="/boat-removal-fl-san-carlos-park" component={City_SanCarlosPark} />
+      <Route path="/boat-removal-fl-sarasota" component={City_Sarasota} />
+      <Route path="/boat-removal-fl-seffner" component={City_Seffner} />
+      <Route path="/boat-removal-fl-seminole" component={City_Seminole} />
+      <Route path="/boat-removal-fl-siesta-key" component={City_SiestaKey} />
+      <Route path="/boat-removal-fl-south-venice" component={City_SouthVenice} />
+      <Route path="/boat-removal-fl-st-james-city" component={City_StJamesCity} />
+      <Route path="/boat-removal-fl-st-pete-beach" component={City_StPeteBeach} />
+      <Route path="/boat-removal-fl-st-petersburg" component={City_StPetersburg} />
+      <Route path="/boat-removal-fl-sun-city-center" component={City_SunCityCenter} />
+      <Route path="/boat-removal-fl-tallevast" component={City_Tallevast} />
+      <Route path="/boat-removal-fl-tarpon-springs" component={City_TarponSprings} />
+      <Route path="/boat-removal-fl-temple-terrace" component={City_TempleTerrace} />
+      <Route path="/boat-removal-fl-thonotosassa" component={City_Thonotosassa} />
+      <Route path="/boat-removal-fl-tice" component={City_Tice} />
+      <Route path="/boat-removal-fl-town-n-country" component={City_TownNCountry} />
+      <Route path="/boat-removal-fl-treasure-island" component={City_TreasureIsland} />
+      <Route path="/boat-removal-fl-university" component={City_University} />
+      <Route path="/boat-removal-fl-venice" component={City_Venice} />
+      <Route path="/boat-removal-fl-venice-gardens" component={City_VeniceGardens} />
+      <Route path="/boat-removal-fl-vineyards" component={City_Vineyards} />
+      <Route path="/boat-removal-fl-warm-mineral-springs" component={City_WarmMineralSprings} />
+      <Route path="/boat-removal-fl-westchase" component={City_Westchase} />
+      <Route path="/boat-removal-fl-wimauma" component={City_Wimauma} />
 
       <Route component={NotFound} />
     </Switch>

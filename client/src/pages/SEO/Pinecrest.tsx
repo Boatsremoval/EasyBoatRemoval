@@ -11,10 +11,10 @@ import { getNearbyCities } from "@/utils/getNearbyCities";
 import logoImage from "@assets/Logo_easy_boat_removal.png";
 import { getPhoneByCity } from "@/utils/getPhoneByCity";
 
-export default function Tampa() {
+export default function Pinecrest() {
   const [, setLocation] = useLocation();
-   const nearbyCities = getNearbyCities("Tampa", 60); // find up to 60 closest
-  const phone = getPhoneByCity("Tampa");
+   const nearbyCities = getNearbyCities("Pinecrest", 60); // find up to 60 closest
+  const phone = getPhoneByCity("Pinecrest");
   
   const services = [
     "Boat Hauling & Transportation",
@@ -26,52 +26,47 @@ export default function Tampa() {
   ];
 
   const serviceAreas = [
-    "Downtown Tampa",
-    "Ybor City",
-    "Hyde Park",
-    "Channel District",
-    "Westshore",
-    "Tampa Heights",
-    "Carrollwood",
-    "South Tampa",
-    "Davis Islands",
-    "Seminole Heights",
-    " University Area"
+    "Pinecrest Pier",
+    "Matheson Hammock Marina",
+    "Black Point Marina",
+    "Old Cutler Road",
+    "South Dixie Highway (US-1)",
+    "Pinecrest Gardens Area"
   ];
 
   const faqs = [
     {
-      question: "How fast can you remove a boat in Tampa?",
-      answer: "We provide same-day and next-day boat removal in Tampa, FL. Reach out before noon and we may be able to come the same day. Emergency removals are available 24/7."
+      question: "How fast can you remove a boat in Pinecrest?",
+      answer: "We provide same-day and next-day boat removal in Pinecrest, FL. Reach out before noon and we may be able to come the same day. Emergency removals are available 24/7."
     },
-    { 
-      question: "Which parts of Tampa do you cover?",
-      answer: "We cover all of Tampa, including Downtown Tampa, Ybor City, Hyde Park, the Channel District, Westshore, Tampa Heights, Carrollwood, South Tampa, Davis Islands, Seminole Heights and the University Area in Hillsborough County." 
+    {
+      question: "Which parts of Pinecrest do you cover?",
+      answer: "We cover all of Pinecrest, including Pinecrest Pier, Matheson Hammock Marina, Black Point Marina, Old Cutler Road, South Dixie Highway (US-1) and Pinecrest Gardens Area, plus the surrounding Miami-Dade County neighborhoods."
     },
     {
       question: "Can you remove a boat from a residential property?",
-      answer: "Yes! We take boats from driveways, backyards, marinas, storage facilities and waterfront homes all over Tampa, and we handle the permits and logistics."
+      answer: "Yes! We take boats from driveways, backyards, marinas, storage facilities and waterfront homes all over Pinecrest, and we handle the permits and logistics."
     },
     {
-      question: "How much does boat removal in Tampa cost?",
-      answer: "Our boat removal in Tampa is affordable, with clear pricing. The cost depends on the size and condition of the boat and how easy it is to reach. Quotes are free, and we focus only on removal and disposal — we don’t buy boats."
+      question: "How much does boat removal in Pinecrest cost?",
+      answer: "Our boat removal in Pinecrest is affordable, with clear pricing. The cost depends on the size and condition of the boat and how easy it is to reach. Quotes are free, and we focus only on removal and disposal — we don’t buy boats."
     }
   ];
 
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>Tampa FL Boat Removal | Boat Disposal & Dismantling | Easy Boat Removal</title>
-        <meta name="description" content="Professional boat removal in Tampa, Florida. Free quotes, same-day service and eco-friendly disposal for boats, yachts and catamarans of any size in nearby areas." />
-        <meta property="og:title" content="Tampa FL Boat Removal | Easy Boat Removal" />
+        <title>Pinecrest FL Boat Removal | Boat Disposal & Dismantling | Easy Boat Removal</title>
+        <meta name="description" content="Professional boat removal in Pinecrest, Florida. Free quotes, same-day service and eco-friendly disposal for boats, yachts and catamarans of any size in nearby areas." />
+        <meta property="og:title" content="Pinecrest FL Boat Removal | Easy Boat Removal" />
         <meta 
           property="og:description" 
-          content="Professional boat removal in Tampa, Florida. Free quotes, same-day service and eco-friendly disposal." 
+          content="Professional boat removal in Pinecrest, Florida. Free quotes, same-day service and eco-friendly disposal." 
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://easyboatremoval.com/boat-removal-fl-tampa" />
+        <link rel="canonical" href="https://easyboatremoval.com/boat-removal-fl-pinecrest" />
       </Helmet>
-     <Header cityName="Tampa" />
+     <Header cityName="Pinecrest" />
       
       <main className="flex-1">
         {/* Hero Section */}
@@ -80,15 +75,15 @@ export default function Tampa() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 mb-4">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-sm font-semibold text-muted-foreground">Tampa, Florida</span>
+                <span className="text-sm font-semibold text-muted-foreground">Pinecrest, Florida</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="text-heading-main">
-                Boat Removal Services in Tampa, FL
+                Boat Removal Services in Pinecrest, FL
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Professional boat disposal and dismantling for homes and businesses in Tampa. 
+                Professional boat disposal and dismantling for homes and businesses in Pinecrest. 
                 We remove boats of every size, from small sailboats to big yachts and catamarans. 
-                Fast, eco-friendly and affordable service for Hillsborough County.
+                Fast, eco-friendly and affordable service for Miami-Dade County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
@@ -112,16 +107,16 @@ export default function Tampa() {
             </div>
           </div>
         </section>
-    <RandomBoatGallery cityName="Tampa" count={2} />
+    <RandomBoatGallery cityName="Pinecrest" count={2} />
         {/* Why Choose Us Section */}
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Why Choose <span className="text-primary">Easy Boat Removal</span> in Tampa?
+                Why Choose <span className="text-primary">Easy Boat Removal</span> in Pinecrest?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Trusted boat removal professionals for Tampa and all of Hillsborough County
+                Trusted boat removal professionals for Pinecrest and all of Miami-Dade County
               </p>
             </div>
 
@@ -133,7 +128,7 @@ export default function Tampa() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We are based in Florida and know Tampa’s coastal environment and local rules.
+                    We are based in Florida and know Pinecrest’s coastal environment and local rules.
                   </p>
                 </CardContent>
               </Card>
@@ -145,7 +140,7 @@ export default function Tampa() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Quick response, with same-day removal in Tampa when it is urgent.
+                    Quick response, with same-day removal in Pinecrest when it is urgent.
                   </p>
                 </CardContent>
               </Card>
@@ -211,7 +206,7 @@ export default function Tampa() {
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   Whether it is an old boat taking up room in your driveway, a damaged boat at the marina 
-                  or a derelict vessel that has to go right away, we have a full solution for Tampa residents.
+                  or a derelict vessel that has to go right away, we have a full solution for Pinecrest residents.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {services.map((service, index) => (
@@ -233,7 +228,7 @@ export default function Tampa() {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>Tampa Areas We Cover</CardTitle>
+                  <CardTitle>Pinecrest Areas We Cover</CardTitle>
                   <CardDescription>Service in every part of the city</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -246,7 +241,7 @@ export default function Tampa() {
                     ))}
                   </div>
                   <p className="text-sm text-muted-foreground mt-4">
-                    And all nearby neighborhoods in Hillsborough County
+                    And all nearby neighborhoods in Miami-Dade County
                   </p>
                 </CardContent>
               </Card>
@@ -262,7 +257,7 @@ export default function Tampa() {
                 Our Easy 3-Step Process
               </h2>
               <p className="text-lg text-muted-foreground">
-                Quick, hassle-free boat removal in Tampa
+                Quick, hassle-free boat removal in Pinecrest
               </p>
             </div>
 
@@ -276,7 +271,7 @@ export default function Tampa() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Give us a call or fill out the online form with details about your boat and where it is in Tampa. 
+                    Give us a call or fill out the online form with details about your boat and where it is in Pinecrest. 
                     Photos help us quote you faster.
                   </p>
                 </CardContent>
@@ -322,7 +317,7 @@ export default function Tampa() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-muted-foreground">
-                Answers to common questions about boat removal in Tampa
+                Answers to common questions about boat removal in Pinecrest
               </p>
             </div>
 
@@ -361,7 +356,7 @@ export default function Tampa() {
       <a href={`tel:+1${phone.replace(/[^0-9]/g, "")}`} className="text-primary font-semibold hover:underline">
         {phone}
       </a>{" "}
-      to talk with our boat removal specialist for Tampa and all of Hillsborough County.
+      to talk with our boat removal specialist for Pinecrest and all of Miami-Dade County.
       The price depends on the size and condition of the boat and how easy it is to reach.
     </p>
 <Button
@@ -378,29 +373,20 @@ export default function Tampa() {
         <section className="py-16 md:py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              About <span className="text-primary">Easy Boat Removal</span> in Tampa, Florida
+              About <span className="text-primary">Easy Boat Removal</span> in Pinecrest, Florida
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-              <p> 
-                Tampa is a lively city in Hillsborough County, known for its waterfront skyline, colorful neighborhoods
-                and deep boating culture along Tampa Bay and the Hillsborough River. With busy downtown docks, commercial ports
-                and popular boat ramps, professional boat removal is often needed here.
-              </p> 
-              <p> 
-                Whether you are by the Downtown Tampa waterfront and the Riverwalk, near Davis Islands and Harbour Island,
-                or around Bayshore Boulevard, the Channel District or Port Tampa Bay,
-                <span className="text-primary">Easy Boat Removal</span> offers fast, reliable and eco-friendly
-                boat disposal. We know the permit, logistics and environmental challenges of working on
-                Hillsborough County’s inland and coastal waterways and have the experience to handle any situation. 
+              <p>
+                With its lush tree-lined streets, upscale neighborhoods and closeness to South Florida’s boating and waterfront destinations, Pinecrest stands out as a suburban community in Miami-Dade County. With many residents owning boats and access to nearby marinas, professional boat removal is always in demand.
               </p>
-              <p> 
-                Our boat removal in Tampa covers hauling away old boats, yachts, sailboats and catamarans from private homes,
-                marinas, storage yards and the waterfront. We do all the transport, the heavy lifting and the eco-friendly
-                disposal, so the process is stress-free for every customer. 
-              </p> 
-              <p> 
-                We serve all of Hillsborough County, including Tampa, South Tampa, Ybor City, Brandon and nearby communities.
-                Contact us today for a free quote! 
+              <p>
+                Is your boat sitting near the Pinecrest Pier, along Old Cutler Road or close to Matheson Hammock Marina and South Dixie Highway (US-1)? <span className="text-primary">Easy Boat Removal</span> can haul it away fast and dispose of it the right way. We plan every removal in Miami-Dade County around where the boat sits and how we can reach it, so the job goes smoothly.
+              </p>
+              <p>
+                Our crews in Pinecrest remove old boats, yachts, sailboats and catamarans from residential properties, storage facilities and nearby marinas. Everything is handled by us, from the heavy lifting to the final disposal, so the process is simple for you.
+              </p>
+              <p>
+                We work all over Miami-Dade County, including Pinecrest, Coral Gables, Palmetto Bay and the towns around them. Call us or send a quote request today, and the quote is free!
               </p>
             </div>
           </div>

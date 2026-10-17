@@ -37,9 +37,7 @@ export default function Footer() {
               </li>
               <li><a href="/salvage-boat-removal" className="text-background/80 hover:text-primary transition-colors">Salvage Boat Removal</a></li>
               <li><a href="/sunken-boat-removal" className="text-background/80 hover:text-primary transition-colors">Sunken Boat Removal</a></li>
-              <li><a href="/pompano-beach-boat-removal" className="text-background/80 hover:text-primary transition-colors">Pompano Beach</a></li>
-              <li><a href="/tampa-boat-removal" className="text-background/80 hover:text-primary transition-colors">Tampa</a></li>
-                          </ul>
+            </ul>
           </div>
 
           {/* Contact */}

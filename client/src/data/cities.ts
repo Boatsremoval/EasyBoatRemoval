@@ -127,6 +127,7 @@ export const allCities: City[] = [
   { name: "Land O' Lakes", lat: 28.2122, lon: -82.4281, county: "Pasco", phone: "754-000-0000"},
   { name: "Odessa", lat: 28.1600, lon: -82.5962, county: "Pasco", phone: "754-000-0000"},
   { name: "New Port Richey", lat: 28.2522, lon: -82.7186, county: "Pasco", phone: "754-000-0000"},
+  { name: "Port Richey", lat: 28.2717, lon: -82.7195, county: "Pasco", phone: "754-000-0000" },
   { name: "Bayonet Point", lat: 28.2943, lon: -82.6955, county: "Pasco", phone: "754-000-0000"},
   { name: "Hudson", lat: 28.3551, lon: -82.6951, county: "Pasco", phone: "754-000-0000"},
   { name: "Plant City", lat: 28.0149, lon: -82.1127, county: "Hillsborough", phone: "754-000-0000"},
