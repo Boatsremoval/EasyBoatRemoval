@@ -1,4 +1,4 @@
-import heroImage from "@assets/Main photo_1760537559542.jpeg";
+import heroImage from "@assets/main_site_image.jpg";
 
 export default function HeroSection() {
   return (
