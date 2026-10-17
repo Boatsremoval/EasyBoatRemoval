@@ -2,10 +2,10 @@ import { useLocation } from "wouter";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import sailboatImg from "@assets/sailboat.jpg";
-import motorboatImg from "@assets/junkmotorboat.jpg";
+import motorboatImg from "@assets/junk-motor-boat.jpg";
 import jetskiImg from "@assets/jetski.jpg";
 import pontoonImg from "@assets/pantoon.png";
-import commercialImg from "@assets/commercialboat.webp";
+import commercialImg from "@assets/commercial-boat.webp";
 import trailerImg from "@assets/boat trailers.webp";
 
 interface VesselType {
