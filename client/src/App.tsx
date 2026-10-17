@@ -13,13 +13,9 @@ import JunkBoatRemoval from "@/pages/JunkBoatRemoval";
 import SalvageBoatRemoval from "@/pages/SalvageBoatRemoval";
 import SunkenBoatRemoval from "@/pages/SunkenBoatRemoval";
 import Quote from "@/pages/Quote";
-import PompanoBeach from "@/pages/PompanoBeach";
-import TampaBoatRemoval from "@/pages/TampaBay";
 import NotFound from "@/pages/not-found";
 
 import PompanoBeachFL from "@/pages/SEO/PompanoBeach"
-
-import Tampa from "@/pages/SEO/westcoast/Tampa"
 import City_Atlantis from "@/pages/SEO/Atlantis";
 import City_Aventura from "@/pages/SEO/Aventura";
 import City_BelleGlade from "@/pages/SEO/BelleGlade";
@@ -104,6 +100,7 @@ import City_WestPalmBeach from "@/pages/SEO/WestPalmBeach";
 import City_Westlake from "@/pages/SEO/Westlake";
 import City_Weston from "@/pages/SEO/Weston";
 import City_WiltonManors from "@/pages/SEO/WiltonManors";
+
 import City_Acline from "@/pages/SEO/westcoast/Acline";
 import City_AnnaMaria from "@/pages/SEO/westcoast/AnnaMaria";
 import City_ApolloBeach from "@/pages/SEO/westcoast/ApolloBeach";
@@ -201,6 +198,7 @@ import City_StJamesCity from "@/pages/SEO/westcoast/StJamesCity";
 import City_StPeteBeach from "@/pages/SEO/westcoast/StPeteBeach";
 import City_StPetersburg from "@/pages/SEO/westcoast/StPetersburg";
 import City_SunCityCenter from "@/pages/SEO/westcoast/SunCityCenter";
+import Tampa from "@/pages/SEO/westcoast/Tampa"
 import City_Tallevast from "@/pages/SEO/westcoast/Tallevast";
 import City_TarponSprings from "@/pages/SEO/westcoast/TarponSprings";
 import City_TempleTerrace from "@/pages/SEO/westcoast/TempleTerrace";
@@ -228,8 +226,6 @@ function Router() {
       <Route path="/junk-boat-removal" component={JunkBoatRemoval} />
       <Route path="/salvage-boat-removal" component={SalvageBoatRemoval} />
       <Route path="/sunken-boat-removal" component={SunkenBoatRemoval} />
-      <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
-      <Route path="/tampa-boat-removal" component={TampaBoatRemoval} />
       <Route path="/boat-removal-fl-pompano-beach" component={PompanoBeachFL} />
       <Route path="/boat-removal-fl-tampa" component={Tampa} />
       <Route path="/boat-removal-fl-atlantis" component={City_Atlantis} />
